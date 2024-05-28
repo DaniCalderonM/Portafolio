@@ -1,0 +1,162 @@
+/* Esta etiqueta se utilizo para lograr el smooth scroll, el cual nos desplaza a la seccion que nosotros
+seleccionemos desde el navbar */
+html {
+    scroll-behavior: smooth;
+}
+
+/* En esta etiqueta dejamos en 0 a forma de inicio los margenes, bordes, paddings y fuente
+para todo el cuerpo de la pagina */
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Kalam", cursive;
+}
+
+/* .kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+.kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Con esta clase le dimos un tamaño a nuestro svc del navbar */
+.tamaño-icono {
+    width: 50px;
+    border-radius: 100%;
+}
+
+/* Con esta clase definimos el tipo de "peso" de nuestra fuente */
+.text-white {
+    font-weight: normal;
+}
+
+/* NAVBAR */
+/* Con esta clase definimos la posicion de nuestro navbar y de los elementos
+dentro de el respecto al contenido de la pagina */
+.navbar {
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+}
+
+/* HERO SECTION*/
+header {
+    background-image: url(../img/galaxia1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27rem;
+}
+
+.hero-section {
+    padding-top: 10rem;
+    text-shadow: 0px 3px 6px #00000080;
+}
+
+header h3 {
+    font-weight: 300;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+header h2 {
+    font-weight: 400;
+}
+
+/* SECCION "QUIENES SOMOS" */
+/* Con esta id definimos el color de fondo de la seccion */
+#sobremi {
+    background-color: black;
+}
+
+/* Con esta clase definimos el color de fondo de los titulos */
+.fondot {
+    background-color: rgb(68, 85, 241);
+    border-radius: 50%;
+}
+
+.sobremi {
+    width: 13rem;
+    border-radius: 100%;
+
+}
+
+/* SECCION DESTACADOS */
+/* Con esta clase definimos el color de fondo de la seccion */
+.conocimientos {
+    background-color: black;
+}
+
+#portafolio {
+    background-color: black;
+}
+
+/* Con esta clase definimos el color de nuestro texto en las cards */
+.card {
+    color: #ffffff;
+}
+
+/* Con esta clase definimos el color de fondo del cuerpo de nuestra card */
+.card-body {
+    background-color: rgb(57, 40, 214) ;
+}
+
+/* SECCION CONTACTO */
+/* Con esta clase definimos el color de fondo de la seccion */
+.fondo-contac {
+    background-color: black;
+}
+
+/* Con esta clase definimos el tamaño de nuestros iconos de contacto */
+.tamaño-awesome {
+    font-size: 5rem;
+}
+
+.letra{
+    font-size: 1.5rem;
+}
+/* Con esta clase definimos el color de fondo del div */
+.contacto{
+    background-color: rgb(85, 68, 243);
+    border-radius: 1%;
+}
+
+/* FOOTER */
+/* Con esta clase definimos el color de fondo de la seccion */
+footer {
+    background-image: url(../img/galaxia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CLASE UTILIZADA EN MAS DE UNA SECCION */
+/* Con esta clase definimos el color de nuestra linea en las secciones */
+.barrita {
+    color: gray;
+}
+
+h5{
+    font-weight: 700;
+}

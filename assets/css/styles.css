@@ -11,6 +11,7 @@ body {
     border: 0;
     padding: 0;
     font-family: "Kalam", cursive;
+    background-color: black;
 }
 
 /* .kalam-light {
@@ -92,11 +93,6 @@ header h2 {
 }
 
 /* SECCION "QUIENES SOMOS" */
-/* Con esta id definimos el color de fondo de la seccion */
-#sobremi {
-    background-color: black;
-}
-
 /* Con esta clase definimos el color de fondo de los titulos */
 .fondot {
     background-color: rgb(68, 85, 241);
@@ -109,18 +105,7 @@ header h2 {
 
 }
 
-/* SECCION CONOCIMIENTOS TECNICOS */
-/* Con esta clase definimos el color de fondo de la seccion */
-.conocimientos {
-    background-color: black;
-}
-
 /* SECCION PORTAFOLIO */
-/* Con esta clase definimos el color de fondo de la seccion */
-#portafolio {
-    background-color: black;
-}
-
 /* Con esta clase definimos el color de nuestro texto en las cards */
 .card {
     color: #ffffff;
@@ -132,11 +117,6 @@ header h2 {
 }
 
 /* SECCION CONTACTO */
-/* Con esta clase definimos el color de fondo de la seccion */
-.fondo-contac {
-    background-color: black;
-}
-
 /* Con esta clase definimos el tamaño de nuestros iconos de contacto */
 .tamaño-awesome {
     font-size: 5rem;

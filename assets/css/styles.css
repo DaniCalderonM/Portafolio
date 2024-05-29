@@ -31,7 +31,7 @@ body {
     font-style: normal;
 } */
 
-/* Con esta clase le dimos un tamaño a nuestro svc del navbar */
+/* Con esta clase le dimos un tamaño a nuestro icono del navbar */
 .tamaño-icono {
     width: 50px;
     border-radius: 100%;
@@ -109,12 +109,14 @@ header h2 {
 
 }
 
-/* SECCION DESTACADOS */
+/* SECCION CONOCIMIENTOS TECNICOS */
 /* Con esta clase definimos el color de fondo de la seccion */
 .conocimientos {
     background-color: black;
 }
 
+/* SECCION PORTAFOLIO */
+/* Con esta clase definimos el color de fondo de la seccion */
 #portafolio {
     background-color: black;
 }
@@ -143,6 +145,7 @@ header h2 {
 .letra{
     font-size: 1.5rem;
 }
+
 /* Con esta clase definimos el color de fondo del div */
 .contacto{
     background-color: rgb(85, 68, 243);

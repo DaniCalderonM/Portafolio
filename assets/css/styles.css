@@ -25,11 +25,11 @@ body {
     font-style: normal;
 } */
 
-.kalam-bold {
+/* .kalam-bold {
     font-family: "Kalam", cursive;
     font-weight: 700;
     font-style: normal;
-}
+} */
 
 /* Con esta clase le dimos un tamaño a nuestro svc del navbar */
 .tamaño-icono {
@@ -63,7 +63,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 27rem;
 }
 
 .hero-section {
@@ -80,8 +79,16 @@ header h1 {
     font-size: 3.5rem;
 }
 
+@media (max-width:768px) {
+    header h1 {
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+}
+
 header h2 {
     font-weight: 400;
+    margin: 0;
 }
 
 /* SECCION "QUIENES SOMOS" */

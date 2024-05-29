@@ -128,7 +128,7 @@ header h2 {
 
 /* Con esta clase definimos el color de fondo del cuerpo de nuestra card */
 .card-body {
-    background-color: rgb(57, 40, 214) ;
+    background-color: rgb(57, 40, 214);
 }
 
 /* SECCION CONTACTO */
@@ -142,12 +142,18 @@ header h2 {
     font-size: 5rem;
 }
 
-.letra{
+.letra {
     font-size: 1.5rem;
 }
 
+@media (max-width:768px) {
+    .correo {
+        font-size: 1.1rem;
+    }
+}
+
 /* Con esta clase definimos el color de fondo del div */
-.contacto{
+.contacto {
     background-color: rgb(85, 68, 243);
     border-radius: 1%;
 }
@@ -167,6 +173,6 @@ footer {
     color: gray;
 }
 
-h5{
+h5 {
     font-weight: 700;
 }

@@ -80,6 +80,7 @@ header h1 {
     font-size: 3.5rem;
 }
 
+/* Con este mediaquery estamos configurando el tamaño de nuestro h1 en pantallas pequeñas */
 @media (max-width:768px) {
     header h1 {
         font-weight: 700;
@@ -92,7 +93,7 @@ header h2 {
     margin: 0;
 }
 
-/* SECCION "QUIENES SOMOS" */
+/* SECCION SOBRE MI */
 /* Con esta clase definimos el color de fondo de los titulos */
 .fondot {
     background-color: rgb(68, 85, 241);
@@ -103,6 +104,15 @@ header h2 {
     width: 13rem;
     border-radius: 100%;
 
+}
+
+/* SECCION CONOCIMIENTOS TECNICOS */
+/* Con este mediaquery estamos configurando el tamaño de nuestro carrusel en pantallas pequeñas */
+@media (max-width:768px) {
+    #carouselExampleFade.carousel.carousel-fade {
+        max-width: 80% !important;
+        margin: 0 auto !important;
+    }
 }
 
 /* SECCION PORTAFOLIO */
@@ -125,7 +135,7 @@ header h2 {
 .letra {
     font-size: 1.5rem;
 }
-
+/* Con este mediaquery estamos configurando el tamaño de nuestro h4 con clase correo en pantallas pequeñas */
 @media (max-width:768px) {
     .correo {
         font-size: 1.1rem;
